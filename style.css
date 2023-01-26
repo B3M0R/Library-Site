@@ -12,6 +12,8 @@ body {
     background-position: center;
     position: relative;
 }
+/* Links */
+
 .links {
     display: flex;
     justify-content: center;
@@ -78,6 +80,7 @@ margin: 10px;
     padding: 10px;
     margin: 10px;
 }
+ /* First Section of Page */
 
 .section1 {
     position: absolute;
@@ -90,13 +93,14 @@ margin: 10px;
 }
 
 .img-homepage {
-    align-items: center;
-    justify-content: center;
-    display: flex;
     width: 600px;
     height: 400px;
     border-radius: 30px;
     border: 4px solid rgba(70, 218, 191, 0.75);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .welcome {
@@ -130,9 +134,21 @@ margin: 10px;
     box-sizing: border-box;
     width: 272px;
     height: 76px;
+    border-radius: 8px;
 }
 
-/* second secton od page */
+/* second secton of page */
+
+.section2 {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 120px;
+    top: 1023px;
+    background: rgba(224, 224, 224, 0.75);
+    border-radius: 60px;
+
+}
 
 .location {
     position: absolute;
@@ -140,15 +156,108 @@ margin: 10px;
     height: 37px;
     left: 588px;
     top: 1079px;
-    font-family: Arial Rounded MT Bold;
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
     text-decoration-line: underline;
     color: #4e4d4d
 }
 
+/*#addressinfo {
+
+}*/
+
 .address {
-    
+padding: 60px;
+margin: 60px;
+width: 212px;
+height: 173px;
+font-family: Arial Rounded MT Bold;
+font-style: normal;
+font-size: 24px;
+line-height: 27.77px;
+display: flex;
+align-items: center;
+text-decoration: underline;
+flex: none;
+order: 0;
+flex: 0;
+color: #4e4d4d
 }
+
+.actual {
+padding: 60px;
+margin: 60px;
+width: 212px;
+height: 173px;
+font-family: Arial Rounded MT Bold;
+font-style: normal;
+font-size: 24px;
+line-height: 27.77px;
+display: flex;
+align-items: center;
+flex: none;
+order: 0;
+flex: 0;
+color: #4e4d4d
+}
+
+.hours {
+width: 500px;
+height: 220px;
+left: 455px;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+font-family: Arial Rounded MT Bold;
+font-style: normal;
+justify-content: right;
+display: flex;
+align-items: center;
+color: #4e4d4d;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Don {
+position: absolute;
+width: 157px;
+height: 37px;
+left: 641px;
+top: 1427px;
+font-family: Arial Rounded MT Bold;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+text-decoration-line: underline;
+color: #4e4d4d;
+}
+
+#donation {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    top: 1684px;
+    left: 631px;
+    width: 178px;
+    height: 52px;
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4e4d4d;
+    background: rgba(70, 218, 191, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 8px;
+    gap: 10px;
+}
+/* third section of page */
+
