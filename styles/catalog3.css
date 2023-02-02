@@ -8,7 +8,7 @@
 body
 {
     
-    background: linear-gradient(rgba(70, 218, 191, 0.7) 100%, rgba(0, 0, 0, 0.5)100%), url(/Library-Site/images/openbook.png);
+    background: linear-gradient(rgba(70, 218, 191, 0.7) 100%, rgba(0, 0, 0, 0.5)100%), url(/Library-Site/images/HomeBackground.jpg);
 }
 
 header
@@ -63,15 +63,27 @@ section
     margin: 5rem;
 }
 
+.content-header{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial Rounded MT Bold;
+    font-weight: 400px;
+    height: 120px;
+    left: 20rem;
+    size: 16px;
+    line-height: 23px;
+    color: #4e4d4d;
+}
+
 .container
 {
     background: rgba(224, 224, 224, 0.75);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     position: relative;
-    width: 80%;
+    width: 100%;
     border-radius: 30px;
 }
 
@@ -95,103 +107,45 @@ section
 {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    align-items: center;
+    align-items: flex-start;
     padding: 30px;
-}
-
-.book-img
-{
-    box-sizing: border-box;
-    width: 600px;
-    height: 400px;
-    border-radius: 30px;
-}
-
-.book-img img 
-{
-    border: 4px solid rgba(70, 218, 191, 0.75) ;
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.content-footer
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    position: relative;
+    width: 900px;
+    right: 80px;
     font-family: Arial Rounded MT Bold;
-    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 23px;
-    color: #4e4e4e;
+    color: #4e4d4d;
 }
 
 
-.content-footer > button
-{
-    padding: 20px 3rem;
-    border: 1px solid #4e4d4d;
+.add > button {
+    padding: 20px 15px;
+    border: 1px solid;
     background-color: rgba(70, 218, 191, 0.75);
     font-size: 20px;
     font-weight: 600;
-    color: black;
     border-radius: 8px;
+    color: #4e4d4d;
+
 }
 
-
-.top-body-content
-{
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    text-align: center;
-    width: 100%;
-    font-family: Arial Rounded MT Bold;
+.check > button {
+    padding: 20px 15px;
+    border: 1px solid;
+    background-color: rgba(70, 218, 191, 0.75);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
     color: #4e4d4d;
 }
-hr
-{
-    width: 100%;
-}
 
-.address-hours
-{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 20px;
-    font-family: Arial Rounded MT Bold;
-    color: #4e4d4d;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-}
-
-strong {
-    text-decoration: underline;
-}
-
-.header-content {
-    width: 239px;
-    height: 62px;
-    font-family: Arial Rounded MT Bold;
-    text-align: center;
-    color: #37474f;
-}
-
-.event-images
-{
-    display: flex;
-    gap: 5rem;
-    border-radius: 30px;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 80%;
-    padding-top: 5rem;
+.book-img {
+    position:relative;
+    right: -61rem;
+    bottom: -8rem;
 }
 
 .follow-us {
