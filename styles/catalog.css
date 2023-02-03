@@ -104,16 +104,32 @@ input {
     background: #87d6c6;
     border: 1px solid #4e4d4d;
     border-radius: 20px;
+    font-family: Arial Rounded MT Bold;
+    color: rgba(78, 77, 77, 0.75);
+    font-size: 20px;
+    width: 487px;
+    height: 47px;
 }
 
-.input {
-    font-family: Arial Rounded MT Bold;
-
+.searchbox {
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+    
 }
 
 .searchby {
     flex-direction: row;
+    display: flex;
+    align-items: center;
 }
+
+.searchby input[type=text] {
+    padding: 5px;
+    margin: 8px;
+}
+
 
 .body-content {
     border: 1px solid #4e4d4d;
@@ -155,15 +171,68 @@ p {
      font-style: normal;
      font-weight: 400;
      font-size: 20px;
+     line-height: 23px;
      display: flex;
      gap: 5rem;
-
+     text-align: flex-start;
+     /* width: 129px; */
+    /* height: 86px; */
 }
 
-.selection a:nth-child(2), .selection a:nth-child(3), .selection a:nth-child(4), .selection a:nth-child(5) {
+.now{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px;
+gap: 10px;
+background-color: rgba(70, 218, 191, 0.5);
+border: 1px solid #4e4d4d;
+border-radius: 10px;
+}
 
+.best{
     box-sizing: border-box;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid #4e4d4d;
+    border-radius: 10px;
+}
+
+.popular {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid #4e4d4d;
+    border-radius: 10px;
+}
+
+.children {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid #4e4d4d;
+    border-radius: 10px;
+}
+
+.young {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid #4e4d4d;
+    border-radius: 10px;
 }
 
 .follow-us {

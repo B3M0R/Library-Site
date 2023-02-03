@@ -40,7 +40,7 @@ nav
     font-size: 20px;
 }
 
-.nav-links a:nth-child(1)
+.nav-links a:nth-child(3)
 {
     text-decoration: underline;
 }
@@ -70,7 +70,7 @@ section
     font-weight: 400px;
     height: 120px;
     left: 20rem;
-    size: 16px;
+    size: 25px;
     line-height: 23px;
     color: #4e4d4d;
 }
@@ -83,7 +83,7 @@ section
     justify-content: center;
     align-items:center;
     position: relative;
-    width: 100%;
+    width: 90%;
     border-radius: 30px;
 }
 
@@ -110,8 +110,8 @@ section
     align-items: flex-start;
     padding: 30px;
     position: relative;
-    width: 900px;
-    right: 80px;
+    width: 1000px;
+    right: -40px;
     font-family: Arial Rounded MT Bold;
     font-style: normal;
     font-weight: 400;
@@ -129,7 +129,47 @@ section
     font-weight: 600;
     border-radius: 8px;
     color: #4e4d4d;
+    position: relative;
+    right: -19rem;
+}
 
+.rate {
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #4e4d4d;
+    border: 1px solid red;
+    flex-direction: row;
+}
+
+.stars {
+/* box-sizing: border-box; */
+width: 166px;
+/* height: 57px; */
+/* background: #d4d4d4; */
+/* border: 3px solid #4e4d4d; */
+flex-direction: row;
+position: relative;
+}
+
+.average {
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #4e4d4d;
+    border: 1px solid green;
+    flex-direction: row;
+}
+
+.stars2 {
+    width: 166px;
+flex-direction: row;
 }
 
 .check > button {
@@ -140,11 +180,13 @@ section
     font-weight: 600;
     border-radius: 8px;
     color: #4e4d4d;
+    position: relative;
+    right: -22rem;
 }
 
 .book-img {
     position:relative;
-    right: -61rem;
+    right: -55rem;
     bottom: -8rem;
 }
 
