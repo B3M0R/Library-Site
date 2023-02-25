@@ -63,13 +63,13 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative; */
   width: 80%;
   border-radius: 30px;
 }
 
 .logo {
-  position: absolute;
+  /* position: absolute; */
   width: 175px;
   height: 175px;
   left: -4%;
@@ -193,7 +193,9 @@ strong {
   font-size: 60px;
 }
 
-@media only screen and (max-width: 500px) {
+/* Cell Phone */
+
+@media only screen and (max-width: 800px) {
   body {
     width: 100%;
   }
@@ -218,21 +220,22 @@ strong {
   section {
     gap: 2rem;
     align-items: center;
-    margin: 2rem;
+    margin: 0;
   }
 
   .container {
-    width: 90%;
+    width: 100%;
   }
 
   .body-content {
     gap: 1rem;
-    padding: 10px;
+    padding: 0;
   }
 
   .logo img {
     width: 60%;
     height: 60%;
+    left: -15%;
   }
 
   .book-img {
@@ -272,12 +275,13 @@ strong {
   }
 
   .kid_img {
-    width: 5%;
+    width: 20px;
+    height: 20px;
   }
 
   .adult_img {
-    width: 5px;
-    height: 5px;
+    width: 100px;
+    height: 100px;
   }
 
   .follow-us {
@@ -293,14 +297,32 @@ strong {
   }
 }
 
+/* Tablet */
+
 @media only screen and (max-width: 820px) {
   body {
     width: 100%;
   }
 
+  header {
+    height: auto;
+    flex-direction: column !important;
+  }
+
   .container1 {
-    width: 85%;
-    padding-left: 15%;
+    width: 100%;
+    /* padding-left: 0; */
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .nav-links a {
@@ -312,18 +334,18 @@ strong {
   .nav-links a:nth-child(3),
   .nav-links a:nth-child(7) {
     border: 1px solid black;
-    padding: 20px 80px 20px 10px;
+    padding: 20px 80px 15px 10px;
     border-radius: 5px;
   }
 
   section {
     gap: 2rem;
     align-items: center;
-    margin: 2rem;
+    /* margin: 2rem; */
   }
 
   .container {
-    width: 70%;
+    width: 90%;
   }
 
   .body-content {
@@ -331,9 +353,18 @@ strong {
     padding: 10px;
   }
 
-  .logo img {
+  .logo {
+    /* position: absolute; */
     width: 50%;
     height: 50%;
+    left: -20%;
+    top: -20%;
+  }
+
+  .logo img {
+    width: 80%;
+    height: 80%;
+    left: -15%;
   }
 
   .book-img {
@@ -361,18 +392,20 @@ strong {
   }
 
   .event-images {
-    gap: 10rem;
+    gap: 8rem;
     border-radius: 15px;
     padding-top: 1rem;
   }
 
   .kid_img {
-    width: 2px;
+    width: 150px;
+    height: 150px;
+    margin-right: -100px;
   }
 
   .adult_img {
-    width: 5px;
-    height: 5px;
+    width: 150px;
+    height: 150px;
   }
 
   .follow-us {
