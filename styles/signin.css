@@ -203,7 +203,7 @@ h5 {
 
   .mobile-nav a {
     gap: 1px;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black;
     font-size: 15px;
   }
