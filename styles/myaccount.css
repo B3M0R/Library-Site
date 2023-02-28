@@ -350,6 +350,11 @@ h5 {
     margin: 20px;
   }
 
+  .body-content {
+    gap: 1rem;
+    padding: 30px;
+  }
+
   .main-nav {
     display: none;
   }
@@ -412,14 +417,15 @@ h5 {
     gap: 2rem;
     align-items: center;
     margin: 0;
+    padding: 40px;
   }
 
   .logo {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 1%;
-    top: 8%;
+    left: 6%;
+    top: 16%;
   }
 
   .logo img {
