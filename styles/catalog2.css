@@ -285,3 +285,152 @@ section {
     padding: 10px;
   }
 }
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    /* margin: 20px; */
+  }
+
+  .body-content {
+    gap: 1rem;
+    padding: 30px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-nav a {
+    gap: 1px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .library {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  .sign {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  .mobile-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .mobile-nav1 {
+    display: flex;
+    /* gap: 1rem; */
+    width: 80%;
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+
+  .mobile-nav2 {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  section {
+    gap: 2rem;
+    align-items: center;
+    margin: 0;
+    padding: 40px;
+  }
+
+  .logo {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 2%;
+    top: 12%;
+  }
+
+  .logo img {
+    width: 80%;
+    height: 80%;
+    left: -10%;
+    bottom: 500%;
+  }
+
+  .content-header {
+    padding-left: 50px;
+  }
+
+  #content1::after {
+    content: "\a";
+    white-space: pre;
+  }
+
+  .Rose {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .exercise {
+    padding-bottom: 0;
+  }
+
+  .sister {
+    padding-top: 0;
+  }
+
+  .remove {
+    padding-left: 160px;
+  }
+  .check {
+    padding-left: 200px;
+    opacity: 0.7;
+  }
+
+  .check > button {
+    font-family: Arial Rounded MT Bold;
+    padding: 20px 30px 15px 30px;
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #4e4d4d;
+    opacity: 0.7;
+  }
+
+  .follow-us {
+    padding: 10px;
+    margin: -10px;
+  }
+
+  .social-media-links {
+    font-size: 35px;
+    padding: 10px;
+  }
+}
