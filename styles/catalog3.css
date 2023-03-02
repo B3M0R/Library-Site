@@ -385,3 +385,180 @@ section {
     padding: 10px;
   }
 }
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .container {
+    width: 70%;
+    /* margin: 20px; */
+  }
+
+  .body-content {
+    gap: 1rem;
+    padding: 30px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-nav a {
+    gap: 1px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .library {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  .sign {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  .mobile-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .mobile-nav1 {
+    display: flex;
+    /* gap: 1rem; */
+    width: 80%;
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+
+  .mobile-nav2 {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  section {
+    gap: 2rem;
+    align-items: center;
+    margin: 0;
+    padding: 40px;
+  }
+
+  .logo {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 16%;
+    top: 12%;
+  }
+
+  .logo img {
+    width: 80%;
+    height: 80%;
+    left: -10%;
+    bottom: 500%;
+  }
+
+  .titles {
+    font-size: 15px;
+    padding-left: 98px;
+    margin: 95px;
+  }
+
+  #content1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#content2::after{
+  content: "\a";
+  white-space: pre;
+}
+
+.summary {
+  font-size: 15px;
+  padding-left: 95px;
+  margin-left: 100px;
+}
+
+.add {
+  padding-top: 20px;
+  padding-left: 45px;
+}
+
+.add button { 
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.rate p {
+  padding-left: 194px;
+  font-size: 25px;
+}
+  .stars {
+    padding-left: 194px;
+    font-size: 25px;
+    
+  }
+
+  .average h3 {
+    padding-right: 281px;
+    font-size: 20px;
+  }
+
+  .average p {
+    padding-right: 292px;
+    font-size: 15px;
+
+  }
+
+  .stars2 {
+    padding-right: 340px;
+    font-size: 25px;
+  }
+
+  .book-img {
+    left: 37rem;
+    bottom: -9rem;
+  }
+
+  .book-img img {
+    height: 118px;
+    width: 100px;
+  }
+
+  .follow-us {
+    padding: 10px;
+    margin: -10px;
+  }
+
+  .social-media-links {
+    font-size: 35px;
+    padding: 10px;
+  }
+
+}
