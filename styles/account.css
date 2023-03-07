@@ -348,3 +348,165 @@ ul {
     font-size: 35px;
   }
 }
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+    body {
+      width: 100%;
+    }
+  
+    .container {
+      width: 100%;
+      /* margin: 20px; */
+    }
+  
+    .body-content {
+      gap: 1rem;
+      padding: 30px;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .mobile-nav a {
+      gap: 1px;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+  
+    .library {
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 10px 5px 10px 5px;
+      text-align: center;
+      justify-content: center;
+      text-decoration: underline;
+    }
+  
+    .sign {
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 10px 5px 10px 5px;
+      text-align: center;
+      justify-content: center;
+      text-decoration: underline;
+    }
+  
+    .mobile-nav {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+  
+    .mobile-nav1 {
+      display: flex;
+      /* gap: 1rem; */
+      width: 80%;
+      /* padding: 20px; */
+      align-items: center;
+      justify-content: space-evenly;
+      text-decoration: none;
+    }
+  
+    .mobile-nav2 {
+      display: flex;
+      gap: 2rem;
+      width: 100%;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+  
+    section {
+      gap: 2rem;
+      align-items: center;
+      margin: 0;
+      padding: 40px;
+    }
+  
+    .logo {
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      left: -5%;
+      top: -3%;
+    }
+  
+    .logo img {
+      width: 80%;
+      height: 80%;
+      left: -10%;
+      bottom: 500%;
+    }
+
+    .pic {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: -25%;
+        top: -4%;
+        left: 80%;
+      }
+    
+      .pic img {
+        width: 150px;
+        height: 150px;
+      }
+    
+      .remove u {
+        top: 150px;
+        position: absolute;
+        font-size: 20px;
+        left: -50px;
+      }
+
+      .checkout {
+        position: absolute;
+        font-size: 20px;
+        right: 155px;
+        top: 130px;
+      }
+
+      ul {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-top: 70px;
+        font-size: 20px;
+      }
+    
+      .old {
+        position: absolute;
+        padding-left: 800px;
+        bottom: 40%;
+        font-size: 25px;
+      }
+
+      .favorite {
+        font-size: 20px;
+        padding-left: 600px;
+        padding-top: 100px;
+      }
+    
+      .favorties {
+        font-size: 25px;
+        padding-left: 350px;
+        line-height: 30px;
+      }
+    
+      .follow-us {
+        font-size: 25px;
+        padding-top: 0;
+      }
+    
+      .social-media-links {
+        font-size: 45px;
+        padding-bottom: 10px;
+      }
+}
